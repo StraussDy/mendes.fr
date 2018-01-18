@@ -9,7 +9,6 @@ session_start()
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
 
@@ -25,16 +24,14 @@ session_start()
     <header id="header" class="alt">
         <span class="logo"><img src="images/logo.jpg" alt="" /></span>
         <h1>Chloé De Azevedo Mendes</h1>
-        <p>Just another free, fully responsive site template<br />
-            built by for <a href="https://html5up.net">HTML5 UP</a>.</p>
         <a href="images/CV-Chloé-De-Azevedo.pdf" target="_blank" class="button">Télécharger mon CV</a>
     </header>
 
     <!-- Nav -->
     <nav id="nav">
         <ul>
-            <li><a href="#intro" class="active">Introduction</a></li>
-            <li><a href="#first">Ma formation</a></li>
+            <li><a href="#intro" class="active">Ma formation</a></li>
+            <li><a href="#first">Mes compétences</a></li>
             <li><a href="#second">Mes expériences</a></li>
             <li><a href="#cta">Contact</a></li>
         </ul>
@@ -48,54 +45,21 @@ session_start()
             <div class="spotlight">
                 <div class="content">
                     <header class="major">
-                        <h2>Ipsum sed adipiscing</h2>
+                        <h2>Ma formation</h2>
                     </header>
-                    <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-                        adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-                        Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+                    <p><p>Etudiante en 2ème année à ingésup YNOV Lyon. Recherche un stage ou alternance en développement Web.</p></p>
                     <ul class="actions">
-                        <li><a href="generic.html" class="button">Learn More</a></li>
+                        <li><a href="https://www.ingesup.com/" target="_blank" class="button">Ingésup.com</a></li>
                     </ul>
                 </div>
-                <span class="image"><img src="images/pic01.jpg" alt="" /></span>
+                <span class="image"><img src="images/ingesup.jpg" alt="" /></span>
             </div>
         </section>
 
         <!-- First Section -->
         <section id="first" class="main special">
             <header class="major">
-                <h2>Magna veroeros</h2>
-            </header>
-            <ul class="features">
-                <li>
-                    <span class="icon major style1 fa-code"></span>
-                    <h3>Ipsum consequat</h3>
-                    <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-                </li>
-                <li>
-                    <span class="icon major style3 fa-copy"></span>
-                    <h3>Amed sed feugiat</h3>
-                    <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-                </li>
-                <li>
-                    <span class="icon major style5 fa-diamond"></span>
-                    <h3>Dolor nullam</h3>
-                    <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-                </li>
-            </ul>
-            <footer class="major">
-                <ul class="actions">
-                    <li><a href="generic.html" class="button">Learn More</a></li>
-                </ul>
-            </footer>
-        </section>
-
-        <!-- Second Section -->
-        <section id="second" class="main special">
-            <header class="major">
-                <h2>Ipsum consequat</h2>
-                <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-                    posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+                <h2>Mes compétences</h2>
             </header>
             <ul class="statistics">
                 <li class="style1">
@@ -119,61 +83,99 @@ session_start()
                     <strong>1,024</strong> Nullam
                 </li>
             </ul>
-            <p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-            <footer class="major">
-                <ul class="actions">
-                    <li><a href="generic.html" class="button">Learn More</a></li>
-                </ul>
-            </footer>
+        </section>
+
+        <!-- Second Section -->
+        <section id="second" class="main special">
+            <header class="major">
+                <h2>Mes expériences</h2>
+                <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
+                    posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+            </header>
+            <ul class="features">
+                <li>
+                    <span class="icon major style1 fa-code"></span>
+                    <h3>Ipsum consequat</h3>
+                    <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                </li>
+                <li>
+                    <span class="icon major style3 fa-copy"></span>
+                    <h3>Amed sed feugiat</h3>
+                    <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                </li>
+                <li>
+                    <span class="icon major style5 fa-diamond"></span>
+                    <h3>Dolor nullam</h3>
+                    <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                </li>
+            </ul>
         </section>
 
         <!-- Get Started -->
         <section id="cta" class="main special">
             <header class="major">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-md-offset-3">
-                            <div class="well well-sm">
-                                <form class="form-horizontal" action="" method="post">
-                                    <fieldset>
-                                        <h2 class="text-center">Contact</h2>
 
-                                        <!-- Name input-->
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label" for="name">Name</label>
-                                            <div class="col-md-9">
-                                                <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                <div class="container-fluid">
+                    <div class="row-fluid" >
+                        <div class="col-md-offset-4 col-md-4" id="box">
+                            <h2>Contact</h2>
+
+                            <?php if(array_key_exists('errors',$_SESSION)): ?>
+                                <div class="alert alert-danger">
+                                    <?= implode('<br>', $_SESSION['errors']); ?>
+                                </div>
+                                <?php unset($_SESSION['errors']); endif; ?>
+                            <?php if(array_key_exists('success',$_SESSION)): ?>
+                                <div class="alert alert-success">
+                                    Votre email à bien été transmis !
+                                </div>
+                                <?php unset($_SESSION['success']); endif; ?>
+
+                            <form class="form-horizontal" action="post_contact.php" method="post" id="contact_form">
+                                <fieldset>
+                                    <div class="form-group">
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                                <input name="name" id="name" placeholder="Nom" class="form-control" type="text">
                                             </div>
                                         </div>
+                                    </div>
 
-                                        <!-- Email input-->
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label" for="email">E-mail</label>
-                                            <div class="col-md-9">
-                                                <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                                    <!-- Text input-->
+                                    <div class="form-group">
+
+                                        <div class="col-md-12">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                                <input name="email" id="email" placeholder="E-Mail" class="form-control" type="text">
                                             </div>
                                         </div>
+                                    </div>
 
-                                        <!-- Message body -->
-                                        <div class="form-group">
-                                            <label class="col-md-3 control-label" for="message">Message</label>
-                                            <div class="col-md-9">
-                                                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                                    <!-- Text input-->
+
+                                    <div class="form-group">
+
+                                        <div class="col-md-12 inputGroupContainer">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                                <textarea class="form-control" name="message" id="message" placeholder="Message"></textarea>
                                             </div>
                                         </div>
+                                    </div>
 
-                                        <!-- Form actions -->
-                                        <div class="form-group">
-                                            <div class="col-md-12 text-right">
-                                                <button type="submit" class="btn btn-primary btn-lg">Envoyer</button>
-                                            </div>
+                                    <div class="form-group">
+
+                                        <div class="col-md-12">
+                                            <button type="submit" class="btn btn-warning">Envoyer<span class="glyphicon glyphicon-send"></span></button>
                                         </div>
-                                    </fieldset>
-                                </form>
-                            </div>
+                                    </div>
+
+                                </fieldset>
+                            </form>
                         </div>
                     </div>
-                </div>
             </header>
         </section>
 
@@ -189,21 +191,16 @@ session_start()
             </ul>
         </section>
         <section>
-            <h2>Etiam feugiat</h2>
+            <h2>Contactez-moi</h2>
             <dl class="alt">
-                <dt>Address</dt>
-                <dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
-                <dt>Phone</dt>
-                <dd>(000) 000-0000 x 0000</dd>
+                <dt>Téléphone</dt>
+                <dd>0606060606</dd>
                 <dt>Email</dt>
-                <dd><a href="#">information@untitled.tld</a></dd>
+                <dd><a href="mailto:cdeazevedome@gmail.com">cdeazevedome@gmail.com</a></dd>
             </dl>
             <ul class="icons">
-                <li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
-                <li><a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
-                <li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
-                <li><a href="#" class="icon fa-linkedin alt"><span class="label">GitHub</span></a></li>
-                <li><a href="#" class="icon fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+                <li><a href="https://www.linkedin.com/in/chlo%C3%A9-de-azevedo-mendes-a10b5a127/" class="icon fa-linkedin alt"><span class="label">Linkedin</span></a></li>
+                <li><a href="mailto:cdeazevedome@gmail.com" class="icon fa-envelope alt"><span class="label">Mail</span></a></li>
             </ul>
         </section>
         <p class="copyright">&copy; Chloé De Azevedo Mendes. Tous droits réservés</p>
