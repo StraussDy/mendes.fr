@@ -1,0 +1,12 @@
+body {
+    background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #5f4d93 15%, #e37682 85%);
+}
+
+#header.alt .logo img {
+    border-radius: 70px;
+    width: 200px;
+}
+
+#header.major {
+    text-align: center;
+}

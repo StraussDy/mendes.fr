@@ -5,11 +5,14 @@ session_start()
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Stellar by HTML5 UP</title>
+    <title>Chloé De Azevedo Mendes | Etudiante</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 </head>
@@ -20,19 +23,20 @@ session_start()
 
     <!-- Header -->
     <header id="header" class="alt">
-        <span class="logo"><img src="images/logo.svg" alt="" /></span>
-        <h1>Stellar</h1>
+        <span class="logo"><img src="images/logo.jpg" alt="" /></span>
+        <h1>Chloé De Azevedo Mendes</h1>
         <p>Just another free, fully responsive site template<br />
-            built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a>.</p>
+            built by for <a href="https://html5up.net">HTML5 UP</a>.</p>
+        <a href="images/CV-Chloé-De-Azevedo.pdf" target="_blank" class="button">Télécharger mon CV</a>
     </header>
 
     <!-- Nav -->
     <nav id="nav">
         <ul>
             <li><a href="#intro" class="active">Introduction</a></li>
-            <li><a href="#first">First Section</a></li>
-            <li><a href="#second">Second Section</a></li>
-            <li><a href="#cta">Get Started</a></li>
+            <li><a href="#first">Ma formation</a></li>
+            <li><a href="#second">Mes expériences</a></li>
+            <li><a href="#cta">Contact</a></li>
         </ul>
     </nav>
 
@@ -126,16 +130,51 @@ session_start()
         <!-- Get Started -->
         <section id="cta" class="main special">
             <header class="major">
-                <h2>Congue imperdiet</h2>
-                <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-                    posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3">
+                            <div class="well well-sm">
+                                <form class="form-horizontal" action="" method="post">
+                                    <fieldset>
+                                        <h2 class="text-center">Contact</h2>
+
+                                        <!-- Name input-->
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label" for="name">Name</label>
+                                            <div class="col-md-9">
+                                                <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <!-- Email input-->
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label" for="email">E-mail</label>
+                                            <div class="col-md-9">
+                                                <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <!-- Message body -->
+                                        <div class="form-group">
+                                            <label class="col-md-3 control-label" for="message">Message</label>
+                                            <div class="col-md-9">
+                                                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                                            </div>
+                                        </div>
+
+                                        <!-- Form actions -->
+                                        <div class="form-group">
+                                            <div class="col-md-12 text-right">
+                                                <button type="submit" class="btn btn-primary btn-lg">Envoyer</button>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </header>
-            <footer class="major">
-                <ul class="actions">
-                    <li><a href="generic.html" class="button special">Get Started</a></li>
-                    <li><a href="generic.html" class="button">Learn More</a></li>
-                </ul>
-            </footer>
         </section>
 
     </div>
@@ -163,11 +202,11 @@ session_start()
                 <li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
                 <li><a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
                 <li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
-                <li><a href="#" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+                <li><a href="#" class="icon fa-linkedin alt"><span class="label">GitHub</span></a></li>
                 <li><a href="#" class="icon fa-dribbble alt"><span class="label">Dribbble</span></a></li>
             </ul>
         </section>
-        <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+        <p class="copyright">&copy; Chloé De Azevedo Mendes. Tous droits réservés</p>
     </footer>
 
 </div>
