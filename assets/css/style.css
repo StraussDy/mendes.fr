@@ -37,3 +37,9 @@ button {
     border-left-color: transparent;
     border-radius: 4px;
 }
+
+div .cti img {
+    margin-right: 10px;
+    border-radius: 50px;
+    width: 150px;
+}

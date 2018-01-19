@@ -33,6 +33,7 @@ session_start()
             <li><a href="#intro" class="active">Ma formation</a></li>
             <li><a href="#first">Mes compétences</a></li>
             <li><a href="#second">Mes expériences</a></li>
+            <li><a href="#third">Mes centres d'intérêts</a></li>
             <li><a href="#cta">Contact</a></li>
         </ul>
     </nav>
@@ -47,7 +48,7 @@ session_start()
                     <header class="major">
                         <h2>Ma formation</h2>
                     </header>
-                    <p><p>Etudiante en 2ème année à ingésup YNOV Lyon. Recherche un stage ou alternance en développement Web.</p></p>
+                    <p>Etudiante en 2ème année à ingésup YNOV Lyon. Recherche un stage ou alternance en développement Web.</p>
                     <ul class="actions">
                         <li><a href="https://www.ingesup.com/" target="_blank" class="button">Ingésup.com</a></li>
                     </ul>
@@ -63,24 +64,28 @@ session_start()
             </header>
             <ul class="statistics">
                 <li class="style1">
-                    <span class="icon fa-code-fork"></span>
-                    <strong>5,120</strong> Etiam
+                    <span class="icon fa-html5"></span>
+                    <strong>HTML CSS</strong>
                 </li>
-                <li class="style2">
-                    <span class="icon fa-folder-open-o"></span>
-                    <strong>8,192</strong> Magna
+                   <li class="style2">
+                    <span class="icon fa-code"></span>
+                    <strong>JavaScript Java</strong>
                 </li>
                 <li class="style3">
-                    <span class="icon fa-signal"></span>
-                    <strong>2,048</strong> Tempus
+                    <span class="icon fa-code"></span>
+                    <strong>AngularJS NodeJS</strong>
                 </li>
                 <li class="style4">
-                    <span class="icon fa-laptop"></span>
-                    <strong>4,096</strong> Aliquam
+                    <span class="icon fa-file-code-o"></span>
+                    <strong>C++</strong>
                 </li>
                 <li class="style5">
-                    <span class="icon fa-diamond"></span>
-                    <strong>1,024</strong> Nullam
+                    <span class="icon fa-globe"></span>
+                    <strong>Anglais Allemand</strong>
+                </li>
+               <li class="style1">
+                    <span class="icon fa-laptop"></span>
+                    <strong>Cordova</strong>
                 </li>
             </ul>
         </section>
@@ -89,26 +94,44 @@ session_start()
         <section id="second" class="main special">
             <header class="major">
                 <h2>Mes expériences</h2>
-                <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-                    posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
             </header>
             <ul class="features">
                 <li>
-                    <span class="icon major style1 fa-code"></span>
-                    <h3>Ipsum consequat</h3>
-                    <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                    <div class="cti">
+                        <img src="images/w3+.jpg">
+                    </div>
+                    <h3>Du 29 mai 2017 au 07 juillet 2017 </h3>
+                    <p>W3+ est une Entreprise de Services du Numérique (ESN).
+                        Elle se situe en région Auvergne-Rhône-Alpes à proximité de Vichy. J'étais Développeuse d’application mobile sur Android et Iphone. J'ai pu bénéficier d'une formation AgularJS, Json, NodeJS, Cordova et Media Queries. Utilisation de VisualStudio. Un Travail d'équipe très présent.</p>
                 </li>
                 <li>
-                    <span class="icon major style3 fa-copy"></span>
-                    <h3>Amed sed feugiat</h3>
-                    <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                    <div class="cti">
+                        <img src="images/walscape.jpg">
+                    </div>
+                    <h3>De mai 2017 à Aujourd’hui</h3>
+                    <p>Wal’Scape Game, une assocation de 4 étudiants, création d'Escape Game Ephémères. Un projet de base créé dans le cadre d'YNOV puis repris personnellement.  Etant Co-présidente, mon rôle est Community manager, j'ai pour but de gérer les réseaux sociaux, de réalisation les logos, la création des énigmes… Représentation réalisées au salon Saint Chamond et dans les locaux d’Ynov Lyon.</p>
                 </li>
                 <li>
-                    <span class="icon major style5 fa-diamond"></span>
-                    <h3>Dolor nullam</h3>
-                    <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                    <div class="cti">
+                        <img src="images/auto-ies.png">
+                    </div>
+                    <h3>De juillet 2014 à fin août 2014 </h3>
+                    <p>Auto-ies est un mandataire automobile. Secteur du commerce. J'étais assistante administrative. Entreprise spécialisée dans la vente de voiture en ligne. Mon rôle etait de remplir des documents de ventes, vérifier des documents officiels, répondre au téléphone.</p>
                 </li>
             </ul>
+        </section>
+
+          <!-- Third Section -->
+        <section id="third" class="main special">
+            <header class="major">
+                <h2>Mes Centres d'intérêts</h2>
+            </header>
+            <p>Je suis passionnée de danse. J'ai fait 13 ans de danse classique et moderne. Aujourd'hui, je continue de maintenir physique en faisant du Fitness depuis 3 ans. J'adore jouer aux jeux vidéos les Sims depuis mon plus jeune âge. Lors de mon temps libre, je fais Montages vidéos de mes voyages ou pour des amis, ma famille.</p>
+            <div class="cti">
+                <img src="images/danse.jpg">
+                <img src="images/media.jpg">
+                <img src="images/sims4.jpg">
+            </div>
         </section>
 
         <!-- Get Started -->
@@ -184,17 +207,17 @@ session_start()
     <!-- Footer -->
     <footer id="footer">
         <section>
-            <h2>Aliquam sed mauris</h2>
-            <p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+            <h2>A ecrire</h2>
+            <p>A ecrire </p>
             <ul class="actions">
-                <li><a href="generic.html" class="button">Learn More</a></li>
+                <li><a href="generic.html" class="button">En apprendre plus</a></li>
             </ul>
         </section>
         <section>
             <h2>Contactez-moi</h2>
             <dl class="alt">
                 <dt>Téléphone</dt>
-                <dd>0606060606</dd>
+                <dd>0782127280</dd>
                 <dt>Email</dt>
                 <dd><a href="mailto:cdeazevedome@gmail.com">cdeazevedome@gmail.com</a></dd>
             </dl>
